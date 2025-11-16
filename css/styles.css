@@ -177,18 +177,38 @@ header{
 .portfolio-text{ font-size:16px; line-height:1.5; letter-spacing:.02em; }
 
 /* ========== FOOTER ========== */
-.footer{ background-color:var(--navy-blue); padding:100px 0; }
-.footer-wrap{
-  display:flex;
-  align-items:baseline;
+/* ========== FOOTER ========== */
+.footer {
+  background-color: var(--navy-blue);
+  padding: 100px 0;
 }
-.footer-link{
-  display:inline-block; margin-bottom:16px;
-  font-family:"Raleway",sans-serif; font-weight:700; font-size:18px; line-height:1.17;
-  letter-spacing:.03em; text-transform:uppercase; color:var(--iris);
+
+.footer-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 120px; /* відстань між колонками */
 }
-.footer-brand{ flex-shrink:0; margin-right:120px; }
-.logo-span-footer{ color:var(--cloud); }
+
+.footer-brand {
+  flex-shrink: 0;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-span-footer {
+  color: var(--cloud);
+}
+
 .footer-text {
   max-width: 264px;
   font-size: 16px;
@@ -202,13 +222,14 @@ header{
   font-weight: 500;
   margin: 0 0 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;}
+  letter-spacing: 0.02em;
+}
+
+/* соцмережі у футері */
 .footer-socials {
   display: flex;
   gap: 16px;
-  justify-content: flex-start;
-  margin-top: 0;
-  padding: 0;
+  margin: 0;
 }
 
 .footer-social-item {
@@ -233,12 +254,12 @@ header{
 
 .footer-social-icon {
   display: block;
-  fill: var(--cloud) !important;
+  fill: var(--cloud);
 }
-/* ========== FOOTER SUBSCRIBE FORM ========== */
 
+/* форма підписки */
 .footer-subscribe {
-  margin-left: auto;
+  margin-left: auto; /* піджене Subscribe до правого краю */
 }
 
 .subscribe-form {
@@ -296,6 +317,7 @@ header{
   margin-left: 16px;
   fill: var(--white);
 }
+
 /* ========== BACKDROP & MODAL ========== */
 
 .backdrop {
