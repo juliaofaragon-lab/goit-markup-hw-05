@@ -504,9 +504,6 @@ header{
   fill: var(--cloud);
 }
             
-}
-
-
 .privacy-link {
   color: var(--iris);
   text-decoration: underline;
