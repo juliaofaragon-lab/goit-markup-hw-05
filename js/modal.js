@@ -16,6 +16,7 @@
 
   function toggleModal() {
     refs.modal.classList.toggle('is-open');
+    document.body.classList.toggle('modal-open');
   }
 
   function onBackdropClick(event) {
