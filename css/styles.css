@@ -364,8 +364,8 @@ header{
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  background-color: #404bbf; 
-  border: none;              
+  background-color: #404bbf;
+  border: none;   
 }
 
 .modal-close-btn:hover .modal-close-icon,
@@ -528,6 +528,6 @@ header{
 
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
-  background-color: var(--hover);
+  background-color: #404bbf;
   border: none;
 }
