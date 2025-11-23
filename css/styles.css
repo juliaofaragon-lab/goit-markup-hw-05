@@ -486,8 +486,7 @@ body.modal-open {
   color: #8e8f99;
 }
 
-.modal-custom-checkbox.modal-custom-checkbox {
-  display: inline-flex;
+.modal-custom-checkbox {
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -511,6 +510,10 @@ body.modal-open {
 .privacy-link {
   color: var(--iris);
   text-decoration: underline;
+}
+
+.modal-custom-checkbox {
+  display: inline-flex;
 }
 
 /* кнопка в модалці */
