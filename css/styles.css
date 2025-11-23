@@ -486,7 +486,8 @@ body.modal-open {
   color: #8e8f99;
 }
 
-.modal-custom-checkbox {
+.modal-custom-checkbox.modal-custom-checkbox {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
