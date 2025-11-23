@@ -486,7 +486,7 @@ body.modal-open {
   color: #8e8f99;
 }
 
-span.modal-custom-checkbox {
+.modal-custom-checkbox {
   width: 16px;
   height: 16px;
   border-radius: 2px;
