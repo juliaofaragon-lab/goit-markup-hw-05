@@ -490,12 +490,6 @@ body.modal-open {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-}
-
-.modal-custom-checkbox {
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
   width: 16px;
   height: 16px;
   border-radius: 2px;
